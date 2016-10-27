@@ -1,0 +1,19 @@
+{
+  "name": "object-map",
+  "version": "1.0.0",
+  "description": "A map function that takes an object and returns an object",
+  "main": "object-map.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "map",
+    "object",
+    "object-map"
+  ],
+  "author": "Lucy Gilbert",
+  "license": "MIT"
+}
