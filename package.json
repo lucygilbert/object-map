@@ -4,10 +4,10 @@
   "description": "A map function that takes an object and returns an object",
   "main": "object-map.js",
   "directories": {
-    "test": "tests"
+    "test": "spec"
   },
   "scripts": {
-    "test": "test"
+    "test": "jasmine"
   },
   "keywords": [
     "map",
@@ -15,5 +15,8 @@
     "object-map"
   ],
   "author": "Lucy Gilbert",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2"
+  }
 }
