@@ -2,6 +2,13 @@
   function objectMap(sourceObject, mapFunction) {
     var mappedObject = {};
     var index = 0;
+
+    if (typeof sourceObject !== 'object') {
+      throw new Error('The object provided as the first argument must be an object.');
+    } else if (typeof mapFunction !== 'function') {
+      throw new Error('The map function provided as the second argument must be a function.');
+    }
+
     Object.keys(sourceObject).forEach(function (sourceKey) {
       var lastResult;
 
